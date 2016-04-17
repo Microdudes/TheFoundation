@@ -1,7 +1,7 @@
 # TheFoundation
 Showcase für eine Device 2 Device Verbindung mit einem Azure IoT Hub
 
-## Michael (besser gesagt Michaels Comlink)
+## Michael (besser gesagt der Comlink)
 UWP App auf einem Windows 10 Mobile das über Bluetooth mit einem Microsoft Band 2 verbunden ist. Fungiert ebenfalls als Gerät innerhalb des IoT Hubs.
 Das Band sendet stetig die Herzfrequenz und das RR Interval an das IoT Hub. Vom Windows 10 Mobile wird zusätzlich noch die GPS Position abgefragt und ebenfalls mitgesendet.
 
