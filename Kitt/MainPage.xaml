@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Kitt.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kitt"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="1000" >
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ListView Grid.Column="0" ItemsSource="{Binding}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontSize="16" Margin="0,0,20,0">
+                                <Run>Interval: </Run>
+                                <Run Text="{Binding Value.RrInterval}" />
+                            </TextBlock>
+                            <TextBlock FontSize="16">
+                                <Run>Heartrate: </Run>
+                                <Run Text="{Binding Value.PulsFrequency}" />
+                            </TextBlock>
+                        </StackPanel>
+                        <TextBlock FontSize="12" Opacity="0.7" Text="{Binding Key}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Rectangle Fill="Gray" Name="Led1" Width="40" Height="30" Margin="4,0" Tapped="Led1_Tapped"></Rectangle>
+            <Rectangle Fill="Gray" Name="Led2" Width="40" Height="30" Margin="4,0" Tapped="Led2_Tapped"></Rectangle>
+            <Rectangle Fill="Gray" Name="Led3" Width="40" Height="30" Margin="4,0" Tapped="Led3_Tapped"></Rectangle>
+            <Rectangle Fill="Gray" Name="Led4" Width="40" Height="30" Margin="4,0" Tapped="Led4_Tapped"></Rectangle>
+            <Rectangle Fill="Gray" Name="Led5" Width="40" Height="30" Margin="4,0" Tapped="Led5_Tapped"></Rectangle>
+            <Rectangle Fill="Gray" Name="Led6" Width="40" Height="30" Margin="4,0" Tapped="Led6_Tapped"></Rectangle>
+            <Rectangle Fill="Gray" Name="Led7" Width="40" Height="30" Margin="4,0" Tapped="Led7_Tapped"></Rectangle>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/Microdudes.vssscc
+/Semi/obj/Debug
+/Kitt.Test/bin/Debug
+/Kitt.Test/obj/Debug
+/Kitt.Contracts/bin/Debug
+/Kitt.Contracts/obj/Debug
+/Kitt/bin
+/Kitt/obj
