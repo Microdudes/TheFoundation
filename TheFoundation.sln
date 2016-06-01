@@ -5,9 +5,13 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitt", "Kitt\Kitt.csproj", "{AF5CF055-E7AB-45FE-9832-5797B3918D67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitt.Test", "Kitt.Test\Kitt.Test.csproj", "{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitt.Contracts", "Kitt.Contracts\Kitt.Contracts.csproj", "{24D3BEDF-D32E-4DD0-A586-134FE72853A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi", "Semi\Semi.csproj", "{1D270925-F80A-4123-A113-84022F77775F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KITT.Client", "Kitt.Client\KITT.Client.csproj", "{4A1F4627-ABE1-4485-9799-48F03DE661F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,22 @@ Global
 		{AF5CF055-E7AB-45FE-9832-5797B3918D67}.Release|x86.ActiveCfg = Release|x86
 		{AF5CF055-E7AB-45FE-9832-5797B3918D67}.Release|x86.Build.0 = Release|x86
 		{AF5CF055-E7AB-45FE-9832-5797B3918D67}.Release|x86.Deploy.0 = Release|x86
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|ARM.Build.0 = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|x64.Build.0 = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Debug|x86.Build.0 = Debug|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|ARM.Build.0 = Release|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|x64.ActiveCfg = Release|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|x64.Build.0 = Release|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{A4FDEAB1-A5F3-4F85-89A5-E8F501593BD9}.Release|x86.Build.0 = Release|Any CPU
 		{24D3BEDF-D32E-4DD0-A586-134FE72853A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24D3BEDF-D32E-4DD0-A586-134FE72853A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24D3BEDF-D32E-4DD0-A586-134FE72853A7}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -75,8 +95,49 @@ Global
 		{1D270925-F80A-4123-A113-84022F77775F}.Release|x64.Build.0 = Release|Any CPU
 		{1D270925-F80A-4123-A113-84022F77775F}.Release|x86.ActiveCfg = Release|Any CPU
 		{1D270925-F80A-4123-A113-84022F77775F}.Release|x86.Build.0 = Release|Any CPU
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|ARM.Build.0 = Debug|ARM
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|ARM.Deploy.0 = Debug|ARM
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|x64.ActiveCfg = Debug|x64
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|x64.Build.0 = Debug|x64
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|x64.Deploy.0 = Debug|x64
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|x86.ActiveCfg = Debug|x86
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|x86.Build.0 = Debug|x86
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Debug|x86.Deploy.0 = Debug|x86
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|Any CPU.ActiveCfg = Release|x86
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|ARM.ActiveCfg = Release|ARM
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|ARM.Build.0 = Release|ARM
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|ARM.Deploy.0 = Release|ARM
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|x64.ActiveCfg = Release|x64
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|x64.Build.0 = Release|x64
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|x64.Deploy.0 = Release|x64
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|x86.ActiveCfg = Release|x86
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|x86.Build.0 = Release|x86
+		{4A1F4627-ABE1-4485-9799-48F03DE661F5}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://theorangecurtain.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = Kitt\\Kitt.csproj
+		SccProjectName0 = Kitt
+		SccLocalPath0 = Kitt
+		SccProjectUniqueName1 = Kitt.Test\\Kitt.Test.csproj
+		SccProjectName1 = Kitt.Test
+		SccLocalPath1 = Kitt.Test
+		SccProjectUniqueName2 = Kitt.Contracts\\Kitt.Contracts.csproj
+		SccProjectName2 = Kitt.Contracts
+		SccLocalPath2 = Kitt.Contracts
+		SccProjectUniqueName3 = Semi\\Semi.csproj
+		SccProjectName3 = Semi
+		SccLocalPath3 = Semi
+		SccLocalPath4 = .
+		SccProjectUniqueName5 = Kitt.Client\\KITT.Client.csproj
+		SccProjectName5 = Kitt.Client
+		SccLocalPath5 = Kitt.Client
 	EndGlobalSection
 EndGlobal

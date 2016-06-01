@@ -10,7 +10,7 @@ namespace Kitt.Test
     class Program
     {
         static ServiceClient serviceClient;
-        static string connectionString = "HostName=TheFoundation.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=EaP6bFGKAndYwwZYixzZ9wnUZu2C1gJ5Wk2QWkk+ErI=";
+        static string connectionString = "{YourConnectionString}";
 
         static void Main(string[] args)
         {
